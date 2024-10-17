@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxtjs/tailwindcss',
-    '@nuxt/eslint'
+    '@nuxt/eslint',
+    '@nuxt/fonts'
   ],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
