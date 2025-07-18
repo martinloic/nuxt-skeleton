@@ -1,20 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/icon',
-    '@nuxt/image',
-    '@nuxtjs/tailwindcss',
     '@nuxt/eslint',
-    '@nuxt/fonts'
+    '@nuxt/image',
+    '@nuxt/ui'
   ],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  compatibilityDate: '2024-04-03',
-  srcDir: 'app',
   serverDir: 'server',
-  future: {
-    compatibilityVersion: 4,
-  },
+  compatibilityDate: '2025-07-18',
   eslint: {
     config: {
       stylistic: true
