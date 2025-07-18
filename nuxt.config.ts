@@ -7,7 +7,6 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  serverDir: 'server',
   compatibilityDate: '2025-07-18',
   eslint: {
     config: {
